@@ -1,0 +1,136 @@
+
+
+/* Desktops and laptops ----------- */
+
+  body {
+    line-height: 2;
+    background-color: #ffffff;
+  }
+
+  .navTop {
+    background-color: #6c7a74;
+  }
+
+  .card-body{
+    background-color: #9bc0bd;
+  }
+
+  .pic-profile{
+    border-radius: 100px;
+    width: 200px;
+  }
+
+  .social {
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .student {
+    border-radius: 100px;
+    width: 150px;
+    float:left;
+    margin-right: 40px;
+  }
+
+  .text {
+    margin-left: 40px;
+  }
+
+  .skill-row {
+    padding-top: 45px;
+    width:85%;
+    margin: auto;
+    text-align: left;
+    line-height: 2;
+  }
+
+
+/* Tablet view ----------- */
+@media screen and (max-width: 992px) {
+  body {
+    line-height: 2;
+    background-color: #f6fff8;
+  }
+
+  .navTop {
+    background-color: #ef476f;
+  }
+
+  .card-body{
+    background-color: #ffd166;
+  }
+
+  .pic-profile{
+    border-radius: 100px;
+    width: 200px;
+  }
+
+  .social {
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .student {
+    border-radius: 100px;
+    width: 150px;
+    float:left;
+    margin-right: 40px;
+  }
+
+  .text {
+    margin-left: 40px;
+  }
+
+  .skill-row {
+    padding-top: 45px;
+    width:85%;
+    margin: auto;
+    text-align: left;
+    line-height: 2;
+  }
+
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+/* On screens that are 600px or less */
+@media screen and (max-width: 600px) {
+  body {
+    line-height: 2;
+    background-color: #cce6f4;
+  }
+
+  .navTop {
+    background-color: #ba324f;
+  }
+
+  .card-body{
+    background-color: #4ba3c3;
+  }
+
+  .pic-profile{
+    border-radius: 100px;
+    width: 200px;
+  }
+
+  .title{
+    text-align: center;
+  }
+
+  .skill-row {
+    padding-top: 30px;
+    width:100%;
+    line-height: 2;
+  }
+
+  .student {
+    border-radius: 100%;
+    width: 50%;
+    margin-left: 25%;
+    padding: 5px;
+  }
+
+  .text {
+    padding-top: 250px;
+  }
+
+}
